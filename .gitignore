@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+backend/venv/
+
+# Environment variables — never commit secrets
+.env
+*.env
+!.env.example
+
+# Node
+node_modules/
+.next/
+
+# VS Code & IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives & Large Bundles
+*.zip
+*.tar.gz
+*.7z
+
+# DocIntel runtime data — large/generated/private, do not commit
+backend/uploads/
+backend/vector_db/
+backend/*.index
+backend/*.pkl
+
+# Test artifacts & logs
+*.log
