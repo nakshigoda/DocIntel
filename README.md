@@ -359,4 +359,4 @@ python tests/test_intelligence.py # Test summarization, extraction, and comparis
 ## Author
 
 **Nakshi Goda**  
-DocIntel AI Project
+DocIntel Project
